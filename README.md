@@ -1,0 +1,4 @@
+StatusBarWeather
+================
+
+Mac StatusBar Weather
