@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4704FCF119F2B2E3006B119D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCDF19F2B2E3006B119D /* AFHTTPRequestOperation.m */; };
+		4704FCF219F2B2E3006B119D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCE119F2B2E3006B119D /* AFHTTPRequestOperationManager.m */; };
+		4704FCF319F2B2E3006B119D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCE319F2B2E3006B119D /* AFHTTPSessionManager.m */; };
+		4704FCF419F2B2E3006B119D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCE619F2B2E3006B119D /* AFNetworkReachabilityManager.m */; };
+		4704FCF519F2B2E3006B119D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCE819F2B2E3006B119D /* AFSecurityPolicy.m */; };
+		4704FCF619F2B2E3006B119D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCEA19F2B2E3006B119D /* AFURLConnectionOperation.m */; };
+		4704FCF719F2B2E3006B119D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCEC19F2B2E3006B119D /* AFURLRequestSerialization.m */; };
+		4704FCF819F2B2E3006B119D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCEE19F2B2E3006B119D /* AFURLResponseSerialization.m */; };
+		4704FCF919F2B2E3006B119D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704FCF019F2B2E3006B119D /* AFURLSessionManager.m */; };
+		4704FCFB19F36789006B119D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4704FCFA19F36789006B119D /* Security.framework */; };
+		4704FCFD19F36793006B119D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4704FCFC19F36792006B119D /* CoreServices.framework */; };
+		4704FCFF19F3679B006B119D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4704FCFE19F3679B006B119D /* SystemConfiguration.framework */; };
+		47668D37183913160088DD3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47668D36183913160088DD3F /* Cocoa.framework */; };
+		47668D41183913160088DD3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47668D3F183913160088DD3F /* InfoPlist.strings */; };
+		47668D43183913160088DD3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47668D42183913160088DD3F /* main.m */; };
+		47668D47183913160088DD3F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 47668D45183913160088DD3F /* Credits.rtf */; };
+		47668D4A183913160088DD3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47668D49183913160088DD3F /* AppDelegate.m */; };
+		47668D4D183913160088DD3F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47668D4B183913160088DD3F /* MainMenu.xib */; };
+		47668D4F183913160088DD3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47668D4E183913160088DD3F /* Images.xcassets */; };
+		47668D56183913160088DD3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47668D55183913160088DD3F /* XCTest.framework */; };
+		47668D57183913160088DD3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47668D36183913160088DD3F /* Cocoa.framework */; };
+		47668D5F183913160088DD3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47668D5D183913160088DD3F /* InfoPlist.strings */; };
+		47668D61183913160088DD3F /* StatusBarWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47668D60183913160088DD3F /* StatusBarWeatherTests.m */; };
+		4770CF1A184068B2009F4341 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF19184068B2009F4341 /* DataManager.m */; };
+		4770CF1D184069B3009F4341 /* LocaleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF1C184069B3009F4341 /* LocaleInfo.m */; };
+		4770CF20184069C5009F4341 /* WeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF1F184069C5009F4341 /* WeatherInfo.m */; };
+		478477D219F3DD57006F8210 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 478477D119F3DD57006F8210 /* Constants.m */; };
+		47ED51D519F7DA6500D83FED /* CityListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED51D419F7DA6500D83FED /* CityListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47668D58183913160088DD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47668D2B183913160088DD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47668D32183913160088DD3F;
+			remoteInfo = StatusBarWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4704FCDE19F2B2E3006B119D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4704FCDF19F2B2E3006B119D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4704FCE019F2B2E3006B119D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4704FCE119F2B2E3006B119D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4704FCE219F2B2E3006B119D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4704FCE319F2B2E3006B119D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4704FCE419F2B2E3006B119D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4704FCE519F2B2E3006B119D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4704FCE619F2B2E3006B119D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4704FCE719F2B2E3006B119D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4704FCE819F2B2E3006B119D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4704FCE919F2B2E3006B119D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4704FCEA19F2B2E3006B119D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4704FCEB19F2B2E3006B119D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4704FCEC19F2B2E3006B119D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4704FCED19F2B2E3006B119D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4704FCEE19F2B2E3006B119D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4704FCEF19F2B2E3006B119D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4704FCF019F2B2E3006B119D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4704FCFA19F36789006B119D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4704FCFC19F36792006B119D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4704FCFE19F3679B006B119D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47668D33183913160088DD3F /* StatusBarWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47668D36183913160088DD3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		47668D39183913160088DD3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		47668D3A183913160088DD3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47668D3B183913160088DD3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47668D3E183913160088DD3F /* StatusBarWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarWeather-Info.plist"; sourceTree = "<group>"; };
+		47668D40183913160088DD3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47668D42183913160088DD3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47668D44183913160088DD3F /* StatusBarWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusBarWeather-Prefix.pch"; sourceTree = "<group>"; };
+		47668D46183913160088DD3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		47668D48183913160088DD3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47668D49183913160088DD3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47668D4C183913160088DD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47668D4E183913160088DD3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47668D54183913160088DD3F /* StatusBarWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47668D55183913160088DD3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47668D5C183913160088DD3F /* StatusBarWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarWeatherTests-Info.plist"; sourceTree = "<group>"; };
+		47668D5E183913160088DD3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47668D60183913160088DD3F /* StatusBarWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarWeatherTests.m; sourceTree = "<group>"; };
+		4770CF18184068B2009F4341 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		4770CF19184068B2009F4341 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4770CF1B184069B3009F4341 /* LocaleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleInfo.h; sourceTree = "<group>"; };
+		4770CF1C184069B3009F4341 /* LocaleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocaleInfo.m; sourceTree = "<group>"; };
+		4770CF1E184069C5009F4341 /* WeatherInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfo.h; sourceTree = "<group>"; };
+		4770CF1F184069C5009F4341 /* WeatherInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherInfo.m; sourceTree = "<group>"; };
+		478477D119F3DD57006F8210 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		478477D319F3DD7B006F8210 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		47B4FA8C19F4DEAF00E42A33 /* LocaleInfoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleInfoProtocol.h; sourceTree = "<group>"; };
+		47ED51D319F7DA6500D83FED /* CityListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListTableViewController.h; sourceTree = "<group>"; };
+		47ED51D419F7DA6500D83FED /* CityListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47668D30183913160088DD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4704FCFF19F3679B006B119D /* SystemConfiguration.framework in Frameworks */,
+				4704FCFD19F36793006B119D /* CoreServices.framework in Frameworks */,
+				4704FCFB19F36789006B119D /* Security.framework in Frameworks */,
+				47668D37183913160088DD3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47668D51183913160088DD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47668D57183913160088DD3F /* Cocoa.framework in Frameworks */,
+				47668D56183913160088DD3F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4704FCDD19F2B2E3006B119D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4704FCDE19F2B2E3006B119D /* AFHTTPRequestOperation.h */,
+				4704FCDF19F2B2E3006B119D /* AFHTTPRequestOperation.m */,
+				4704FCE019F2B2E3006B119D /* AFHTTPRequestOperationManager.h */,
+				4704FCE119F2B2E3006B119D /* AFHTTPRequestOperationManager.m */,
+				4704FCE219F2B2E3006B119D /* AFHTTPSessionManager.h */,
+				4704FCE319F2B2E3006B119D /* AFHTTPSessionManager.m */,
+				4704FCE419F2B2E3006B119D /* AFNetworking.h */,
+				4704FCE519F2B2E3006B119D /* AFNetworkReachabilityManager.h */,
+				4704FCE619F2B2E3006B119D /* AFNetworkReachabilityManager.m */,
+				4704FCE719F2B2E3006B119D /* AFSecurityPolicy.h */,
+				4704FCE819F2B2E3006B119D /* AFSecurityPolicy.m */,
+				4704FCE919F2B2E3006B119D /* AFURLConnectionOperation.h */,
+				4704FCEA19F2B2E3006B119D /* AFURLConnectionOperation.m */,
+				4704FCEB19F2B2E3006B119D /* AFURLRequestSerialization.h */,
+				4704FCEC19F2B2E3006B119D /* AFURLRequestSerialization.m */,
+				4704FCED19F2B2E3006B119D /* AFURLResponseSerialization.h */,
+				4704FCEE19F2B2E3006B119D /* AFURLResponseSerialization.m */,
+				4704FCEF19F2B2E3006B119D /* AFURLSessionManager.h */,
+				4704FCF019F2B2E3006B119D /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = SOURCE_ROOT;
+		};
+		47668D2A183913160088DD3F = {
+			isa = PBXGroup;
+			children = (
+				4704FCDD19F2B2E3006B119D /* AFNetworking */,
+				47668D3C183913160088DD3F /* StatusBarWeather */,
+				47668D5A183913160088DD3F /* StatusBarWeatherTests */,
+				47668D35183913160088DD3F /* Frameworks */,
+				47668D34183913160088DD3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47668D34183913160088DD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47668D33183913160088DD3F /* StatusBarWeather.app */,
+				47668D54183913160088DD3F /* StatusBarWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47668D35183913160088DD3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4704FCFE19F3679B006B119D /* SystemConfiguration.framework */,
+				4704FCFC19F36792006B119D /* CoreServices.framework */,
+				4704FCFA19F36789006B119D /* Security.framework */,
+				47668D36183913160088DD3F /* Cocoa.framework */,
+				47668D55183913160088DD3F /* XCTest.framework */,
+				47668D38183913160088DD3F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47668D38183913160088DD3F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47668D39183913160088DD3F /* AppKit.framework */,
+				47668D3A183913160088DD3F /* CoreData.framework */,
+				47668D3B183913160088DD3F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		47668D3C183913160088DD3F /* StatusBarWeather */ = {
+			isa = PBXGroup;
+			children = (
+				47668D48183913160088DD3F /* AppDelegate.h */,
+				47668D49183913160088DD3F /* AppDelegate.m */,
+				47668D4B183913160088DD3F /* MainMenu.xib */,
+				47ED51D319F7DA6500D83FED /* CityListTableViewController.h */,
+				47ED51D419F7DA6500D83FED /* CityListTableViewController.m */,
+				4770CF18184068B2009F4341 /* DataManager.h */,
+				4770CF19184068B2009F4341 /* DataManager.m */,
+				47B4FA8C19F4DEAF00E42A33 /* LocaleInfoProtocol.h */,
+				4770CF1B184069B3009F4341 /* LocaleInfo.h */,
+				4770CF1C184069B3009F4341 /* LocaleInfo.m */,
+				4770CF1E184069C5009F4341 /* WeatherInfo.h */,
+				4770CF1F184069C5009F4341 /* WeatherInfo.m */,
+				478477D119F3DD57006F8210 /* Constants.m */,
+				478477D319F3DD7B006F8210 /* Constants.h */,
+				47668D4E183913160088DD3F /* Images.xcassets */,
+				47668D3D183913160088DD3F /* Supporting Files */,
+			);
+			path = StatusBarWeather;
+			sourceTree = "<group>";
+		};
+		47668D3D183913160088DD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47668D3E183913160088DD3F /* StatusBarWeather-Info.plist */,
+				47668D3F183913160088DD3F /* InfoPlist.strings */,
+				47668D42183913160088DD3F /* main.m */,
+				47668D44183913160088DD3F /* StatusBarWeather-Prefix.pch */,
+				47668D45183913160088DD3F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47668D5A183913160088DD3F /* StatusBarWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				47668D60183913160088DD3F /* StatusBarWeatherTests.m */,
+				47668D5B183913160088DD3F /* Supporting Files */,
+			);
+			path = StatusBarWeatherTests;
+			sourceTree = "<group>";
+		};
+		47668D5B183913160088DD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47668D5C183913160088DD3F /* StatusBarWeatherTests-Info.plist */,
+				47668D5D183913160088DD3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47668D32183913160088DD3F /* StatusBarWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47668D64183913160088DD3F /* Build configuration list for PBXNativeTarget "StatusBarWeather" */;
+			buildPhases = (
+				47668D2F183913160088DD3F /* Sources */,
+				47668D30183913160088DD3F /* Frameworks */,
+				47668D31183913160088DD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarWeather;
+			productName = StatusBarWeather;
+			productReference = 47668D33183913160088DD3F /* StatusBarWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47668D53183913160088DD3F /* StatusBarWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47668D67183913160088DD3F /* Build configuration list for PBXNativeTarget "StatusBarWeatherTests" */;
+			buildPhases = (
+				47668D50183913160088DD3F /* Sources */,
+				47668D51183913160088DD3F /* Frameworks */,
+				47668D52183913160088DD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47668D59183913160088DD3F /* PBXTargetDependency */,
+			);
+			name = StatusBarWeatherTests;
+			productName = StatusBarWeatherTests;
+			productReference = 47668D54183913160088DD3F /* StatusBarWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47668D2B183913160088DD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ZhangQingxin;
+				TargetAttributes = {
+					47668D53183913160088DD3F = {
+						TestTargetID = 47668D32183913160088DD3F;
+					};
+				};
+			};
+			buildConfigurationList = 47668D2E183913160088DD3F /* Build configuration list for PBXProject "StatusBarWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47668D2A183913160088DD3F;
+			productRefGroup = 47668D34183913160088DD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47668D32183913160088DD3F /* StatusBarWeather */,
+				47668D53183913160088DD3F /* StatusBarWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47668D31183913160088DD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47668D41183913160088DD3F /* InfoPlist.strings in Resources */,
+				47668D4F183913160088DD3F /* Images.xcassets in Resources */,
+				47668D47183913160088DD3F /* Credits.rtf in Resources */,
+				47668D4D183913160088DD3F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47668D52183913160088DD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47668D5F183913160088DD3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47668D2F183913160088DD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4704FCF619F2B2E3006B119D /* AFURLConnectionOperation.m in Sources */,
+				4704FCF119F2B2E3006B119D /* AFHTTPRequestOperation.m in Sources */,
+				4704FCF419F2B2E3006B119D /* AFNetworkReachabilityManager.m in Sources */,
+				4704FCF919F2B2E3006B119D /* AFURLSessionManager.m in Sources */,
+				4704FCF719F2B2E3006B119D /* AFURLRequestSerialization.m in Sources */,
+				478477D219F3DD57006F8210 /* Constants.m in Sources */,
+				47668D4A183913160088DD3F /* AppDelegate.m in Sources */,
+				4704FCF819F2B2E3006B119D /* AFURLResponseSerialization.m in Sources */,
+				47ED51D519F7DA6500D83FED /* CityListTableViewController.m in Sources */,
+				4770CF1A184068B2009F4341 /* DataManager.m in Sources */,
+				4770CF1D184069B3009F4341 /* LocaleInfo.m in Sources */,
+				4704FCF219F2B2E3006B119D /* AFHTTPRequestOperationManager.m in Sources */,
+				4704FCF519F2B2E3006B119D /* AFSecurityPolicy.m in Sources */,
+				4770CF20184069C5009F4341 /* WeatherInfo.m in Sources */,
+				47668D43183913160088DD3F /* main.m in Sources */,
+				4704FCF319F2B2E3006B119D /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47668D50183913160088DD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47668D61183913160088DD3F /* StatusBarWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47668D59183913160088DD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47668D32183913160088DD3F /* StatusBarWeather */;
+			targetProxy = 47668D58183913160088DD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47668D3F183913160088DD3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47668D40183913160088DD3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47668D45183913160088DD3F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47668D46183913160088DD3F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		47668D4B183913160088DD3F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47668D4C183913160088DD3F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		47668D5D183913160088DD3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47668D5E183913160088DD3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47668D62183913160088DD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47668D63183913160088DD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47668D65183913160088DD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarWeather/StatusBarWeather-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarWeather/StatusBarWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47668D66183913160088DD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarWeather/StatusBarWeather-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarWeather/StatusBarWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47668D68183913160088DD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StatusBarWeather.app/Contents/MacOS/StatusBarWeather";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarWeather/StatusBarWeather-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StatusBarWeatherTests/StatusBarWeatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47668D69183913160088DD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StatusBarWeather.app/Contents/MacOS/StatusBarWeather";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarWeather/StatusBarWeather-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarWeatherTests/StatusBarWeatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47668D2E183913160088DD3F /* Build configuration list for PBXProject "StatusBarWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47668D62183913160088DD3F /* Debug */,
+				47668D63183913160088DD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47668D64183913160088DD3F /* Build configuration list for PBXNativeTarget "StatusBarWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47668D65183913160088DD3F /* Debug */,
+				47668D66183913160088DD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47668D67183913160088DD3F /* Build configuration list for PBXNativeTarget "StatusBarWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47668D68183913160088DD3F /* Debug */,
+				47668D69183913160088DD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47668D2B183913160088DD3F /* Project object */;
+}
