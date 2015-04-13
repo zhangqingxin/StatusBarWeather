@@ -1,5 +1,5 @@
 //
-//  DataManager.h
+//  NetworkManager.h
 //  StatusBarWeather
 //
 //  Created by ZQX on 13-11-23.
@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
-@interface DataManager : NSObject
+@interface NetworkManager : NSObject
 
 -(void)requestCityId: (NSString *)cityname;
--(void) requestWeatherData: (NSString *) cityname;
+-(void)requestWeatherData: (NSString *) cityname;
 
 @end

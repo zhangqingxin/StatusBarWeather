@@ -30,7 +30,7 @@
 		47668D57183913160088DD3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47668D36183913160088DD3F /* Cocoa.framework */; };
 		47668D5F183913160088DD3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47668D5D183913160088DD3F /* InfoPlist.strings */; };
 		47668D61183913160088DD3F /* StatusBarWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47668D60183913160088DD3F /* StatusBarWeatherTests.m */; };
-		4770CF1A184068B2009F4341 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF19184068B2009F4341 /* DataManager.m */; };
+		4770CF1A184068B2009F4341 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF19184068B2009F4341 /* NetworkManager.m */; };
 		4770CF1D184069B3009F4341 /* LocaleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF1C184069B3009F4341 /* LocaleInfo.m */; };
 		4770CF20184069C5009F4341 /* WeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4770CF1F184069C5009F4341 /* WeatherInfo.m */; };
 		478477D219F3DD57006F8210 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 478477D119F3DD57006F8210 /* Constants.m */; };
@@ -89,8 +89,8 @@
 		47668D5C183913160088DD3F /* StatusBarWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		47668D5E183913160088DD3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47668D60183913160088DD3F /* StatusBarWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarWeatherTests.m; sourceTree = "<group>"; };
-		4770CF18184068B2009F4341 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
-		4770CF19184068B2009F4341 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4770CF18184068B2009F4341 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		4770CF19184068B2009F4341 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		4770CF1B184069B3009F4341 /* LocaleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleInfo.h; sourceTree = "<group>"; };
 		4770CF1C184069B3009F4341 /* LocaleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocaleInfo.m; sourceTree = "<group>"; };
 		4770CF1E184069C5009F4341 /* WeatherInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfo.h; sourceTree = "<group>"; };
@@ -203,8 +203,8 @@
 				47668D4B183913160088DD3F /* MainMenu.xib */,
 				47ED51D319F7DA6500D83FED /* CityListTableViewController.h */,
 				47ED51D419F7DA6500D83FED /* CityListTableViewController.m */,
-				4770CF18184068B2009F4341 /* DataManager.h */,
-				4770CF19184068B2009F4341 /* DataManager.m */,
+				4770CF18184068B2009F4341 /* NetworkManager.h */,
+				4770CF19184068B2009F4341 /* NetworkManager.m */,
 				47B4FA8C19F4DEAF00E42A33 /* LocaleInfoProtocol.h */,
 				4770CF1B184069B3009F4341 /* LocaleInfo.h */,
 				4770CF1C184069B3009F4341 /* LocaleInfo.m */,
@@ -355,7 +355,7 @@
 				47668D4A183913160088DD3F /* AppDelegate.m in Sources */,
 				4704FCF819F2B2E3006B119D /* AFURLResponseSerialization.m in Sources */,
 				47ED51D519F7DA6500D83FED /* CityListTableViewController.m in Sources */,
-				4770CF1A184068B2009F4341 /* DataManager.m in Sources */,
+				4770CF1A184068B2009F4341 /* NetworkManager.m in Sources */,
 				4770CF1D184069B3009F4341 /* LocaleInfo.m in Sources */,
 				4704FCF219F2B2E3006B119D /* AFHTTPRequestOperationManager.m in Sources */,
 				4704FCF519F2B2E3006B119D /* AFSecurityPolicy.m in Sources */,

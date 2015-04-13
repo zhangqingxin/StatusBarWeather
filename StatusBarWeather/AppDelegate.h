@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "DataManager.h"
+#import "NetworkManager.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -15,7 +15,7 @@
 @property (weak) IBOutlet NSTextField *cityNameText;
 @property (weak) IBOutlet NSTableView *citylistview;
 @property (strong) NSMutableArray *cityList;
-@property (strong) DataManager *dataManager;
+@property (strong) NetworkManager *networkManager;
 
 
 

@@ -7,19 +7,19 @@
 //
 
 #import "AppDelegate.h"
-#import "DataManager.h"
+#import "NetworkManager.h"
 
 @implementation AppDelegate
 
 @synthesize cityNameText = _cityNameText;
 @synthesize citylistview = _citylistview;
 @synthesize cityList = _cityList;
-@synthesize dataManager = _dataManager;
+@synthesize networkManager = _networkManager;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [self activateStatusIcon];
-    _dataManager = [[DataManager alloc] init];
+    _networkManager = [[NetworkManager alloc] init];
 }
 
 
@@ -39,6 +39,6 @@
 
 - (IBAction)searchCity:(id)sender {
     NSString *cityname = [_cityNameText stringValue];
-    [[self dataManager] requestCityId: cityname];
+    [[self networkManager] requestCityId: cityname];
 }
 @end

@@ -1,18 +1,18 @@
 //
-//  DataManager.m
+//  NetworkManager.m
 //  StatusBarWeather
 //
 //  Created by ZQX on 13-11-23.
 //  Copyright (c) 2013年 ZhangQingxin. All rights reserved.
 //
 
-#import "DataManager.h"
+#import "NetworkManager.h"
 #import "AFNetworking.h"
 #import "Constants.h"
 #import "LocaleInfo.h"
 #import "AppDelegate.h"
 
-@implementation DataManager
+@implementation NetworkManager
 
 
 - (void)requestCityId: (NSString *)cityname {
